@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtualenv
+.venv/
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Data + models
+data/raw/*
+data/processed/*
+data/binarized/*
+models/checkpoints/*
+models/bpe/*
+
+# Logs / outputs
+logs/
+wandb/
+runs/
+
+# Byte-compiled / temp
+*.log
+*.tmp
+*.swp
