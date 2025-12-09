@@ -1,0 +1,12 @@
+data:
+  train_en: "data/processed/train.en"
+  train_de: "data/processed/train.de"
+  valid_en: "data/processed/valid.en"
+  valid_de: "data/processed/valid.de"
+  test_en:  "data/processed/test.en"
+  test_de:  "data/processed/test.de"
+
+  spm_model: "models/bpe/spm.model"
+  vocab_size: 32000
+  max_source_len: 128
+  max_target_len: 128
